@@ -1,4 +1,17 @@
-# Título
+# Title // ENGLISH
+Apple Click Game
+
+# Description
+Game for browsers (tested in google chrome), it has three levels: easy, normal and hard. The Objective is to click apples to increase your score.
+
+Technologies used:
+
+- HTML / CSS
+- Javascript
+- Bootstrap 4
+- jQuery 3.3.1
+
+# Título // SPANISH
 Juego del Clic
 
 # Descripción
@@ -11,5 +24,5 @@ Juego web usando las siguientes tecnologias:
 
 Librerias:
 
-- Bootrap 4
+- Bootstrap 4
 - jQuery 3.3.1

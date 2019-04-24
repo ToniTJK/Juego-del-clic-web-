@@ -4,35 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Joc del Clic</title>
+    <title>Juego del Clic</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row"> 
           <div id="titleGame" class="col-sm-12">
-            <h1 class="titles">Joc del Clic</h1>
+            <h1 class="titles">Juego del Clic</h1>
           </div>
-        </div>
+        </div> <!-- ROW -->
         <div class="row">
-            <div id="buttonsMenu" class="col-sm-12">
-              <a id="btnEasy" class="btn btn-outline-primary">Nivell Facil</a>
-              <a id="btnMiddle" class="btn btn-outline-warning">Nivell Intermig</a>
-              <a id="btnHard" class="btn btn-outline-danger">Nivell Avançat</a>
+            <div id="buttonsMenu" class="col-sm-12"> <!-- Grupo de botones (Menu)-->
+              <a id="btnEasy" class="btn btn-outline-success">Nivel Fácil</a>
+              <a id="btnMiddle" class="btn btn-outline-warning">Nivel Normal</a>
+              <a id="btnHard" class="btn btn-outline-danger">Nivel Difícil</a>
             </div>
+        </div> <!-- ROW -->
+        <div class="row">
             <div id="buttonsGame" class="col-sm-12">
-                <a id="btnRestart" class="btn btn-outline-warning">Tornar</a>    
-                <a id="btnStop" class="btn btn-outline-danger">Pausa</a>
-                <a id="btnReady" class="btn btn-outline-warning">Reanudar</a> 
+                <a id="btnRestart" class="btn btn-outline-warning float-left">
+                  <i class="fas fa-undo-alt"></i>
+                  Volver
+                </a>    
+                <span id="scoreContainer" class="float-center"> 
+                  <span> Puntuació: </span>
+                  <span id="score"> 0 </span> 
+                </span>
             </div>
-          </div>
-          <div class="row">
-              <div id="battlefield" class="col-sm-12"></div>
-          </div>
-      </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          </div> <!-- ROW -->
+        <div class="row">
+            <div id="battlefield" class="col-sm-12"></div> <!-- Contenidor del joc -->
+        </div> <!-- ROW -->
+    </div>
+    <!-- JavaScript Files -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS -->
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>

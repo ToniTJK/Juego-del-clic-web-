@@ -7,15 +7,29 @@ div#buttonsMenu {
     text-align: center;
 }
 
-div#battlefield {
-    width: 100%;
-    height: 500px;
-    margin-top: 10px;
-    border: 2px solid black;
-    background-color: white;    
-}
-
 div#buttonsGame{
     display: none;
     text-align: center;
+}
+
+div#buttonsGame, div#buttonsMenu {
+    margin-top: 1%;
+}
+
+a#btnRestart:hover,  a#btnEasy:hover, a#btnMiddle:hover, a#btnHard:hover {
+    color: white;
+}
+
+img.apples {
+    width: 60px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#scoreContainer{
+    font-weight: bold;
+}
+
+span#scoreContainer {
+    font-size: 25px;
 }
